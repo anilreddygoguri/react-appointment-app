@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.eachAppointment {
+  border: 1px solid #b5b7c4;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 18px;
+}
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+.date {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+}
